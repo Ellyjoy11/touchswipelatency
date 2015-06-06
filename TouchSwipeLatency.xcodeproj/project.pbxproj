@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66C2B4871B23361F00894123 /* DrawSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C2B4841B23361F00894123 /* DrawSubView.m */; };
+		66C2B4881B23361F00894123 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C2B4861B23361F00894123 /* DrawView.m */; };
 		66E087171B2335690091A996 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E087161B2335690091A996 /* main.m */; };
 		66E0871A1B2335690091A996 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E087191B2335690091A996 /* AppDelegate.m */; };
 		66E0871D1B2335690091A996 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E0871C1B2335690091A996 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66C2B4831B23361F00894123 /* DrawSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawSubView.h; sourceTree = "<group>"; };
+		66C2B4841B23361F00894123 /* DrawSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawSubView.m; sourceTree = "<group>"; };
+		66C2B4851B23361F00894123 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		66C2B4861B23361F00894123 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		66E087111B2335690091A996 /* TouchSwipeLatency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchSwipeLatency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E087151B2335690091A996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66E087161B2335690091A996 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 		66E087081B2335690091A996 = {
 			isa = PBXGroup;
 			children = (
+				66C2B4831B23361F00894123 /* DrawSubView.h */,
+				66C2B4841B23361F00894123 /* DrawSubView.m */,
+				66C2B4851B23361F00894123 /* DrawView.h */,
+				66C2B4861B23361F00894123 /* DrawView.m */,
 				66E087131B2335690091A996 /* TouchSwipeLatency */,
 				66E0872D1B2335690091A996 /* TouchSwipeLatencyTests */,
 				66E087121B2335690091A996 /* Products */,
@@ -168,6 +178,7 @@
 				TargetAttributes = {
 					66E087101B2335690091A996 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = MJC5XNCSK6;
 					};
 					66E087291B2335690091A996 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -222,6 +233,8 @@
 				66E0871D1B2335690091A996 /* ViewController.m in Sources */,
 				66E0871A1B2335690091A996 /* AppDelegate.m in Sources */,
 				66E087171B2335690091A996 /* main.m in Sources */,
+				66C2B4871B23361F00894123 /* DrawSubView.m in Sources */,
+				66C2B4881B23361F00894123 /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TouchSwipeLatency/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TouchSwipeLatency/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +431,7 @@
 				66E087361B2335690091A996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66E087371B2335690091A996 /* Build configuration list for PBXNativeTarget "TouchSwipeLatencyTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +440,7 @@
 				66E087391B2335690091A996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
